@@ -1,0 +1,14 @@
+@import './partials/Mixins.scss';
+
+.App {
+  @include flex-row;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: $white;
+
+  .component {
+    @include flex-column;
+    width: 70%;
+  }
+}

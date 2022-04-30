@@ -1,0 +1,7 @@
+@import './partials/Mixins.scss';
+
+.header {
+  @include flex-row;
+  width: 100%;
+  background-color: green;
+}
