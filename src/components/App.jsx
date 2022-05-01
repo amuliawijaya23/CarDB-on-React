@@ -6,7 +6,7 @@ import Header from './Header';
 export default function App() {
   return (
     <main className="App">
-      <Nav user="user" />
+      <Nav user={null} />
       <div className="component">
         <Header />
       </div>
